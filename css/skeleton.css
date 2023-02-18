@@ -121,18 +121,17 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   font-size: 62.5%; }
 body {
-  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
-  line-height: 1.6;
+  font-size: 1.8em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.4;
   font-weight: 400;
-  font-family: 'Cabin', sans-serif;
-  color: #222; }
-
+  font-family: 'Montserrat', sans-serif;
+  color: #222222; }
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   font-weight: 300; }
 h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
 h2 { font-size: 3.6rem; line-height: 1.25; letter-spacing: -.1rem; }
@@ -288,7 +287,7 @@ label > .label-body {
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 ul {
-  list-style: circle inside; }
+  list-style: disc inside; }
 ol {
   list-style: decimal inside; }
 ol, ul {
@@ -301,7 +300,7 @@ ol ul {
   margin: 1.5rem 0 1.5rem 3rem;
   font-size: 90%; }
 li {
-  margin-bottom: 1rem; }
+  margin-bottom: 1.5rem; }
 
 
 /* Code

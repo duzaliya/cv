@@ -1,0 +1,31 @@
+body {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+div.container {
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 250px;
+}
+
+.header {
+  text-align: center;
+  padding-bottom: 8px;
+  border-bottom: 0.6px solid #bbbbbb;
+}
+
+a {
+  color: #222;
+}
+
+.contact {
+  line-height: 1;
+  list-style: none;
+}
+
+.contact a {
+  text-decoration: none;
+}
