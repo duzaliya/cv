@@ -1,6 +1,6 @@
 body {
   margin-top: 50px;
-  margin-bottom: 70px;
+  margin-bottom: 25px;
 }
 
 div.container {
@@ -28,4 +28,9 @@ a {
 
 .contact a {
   text-decoration: none;
+}
+
+p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
